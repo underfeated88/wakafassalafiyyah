@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.section-title {
+    font-weight: 800;
+    color: #1e5631;
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(20,90,50,0.85), rgba(20,90,50,0.85)),
+        url("images/5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* PROGRAM */
+.program-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.program-card:hover {
+    transform: translateY(-8px);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* GALLERY */
+.gallery-img {
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* QRIS */
+.qris-img {
+    max-width: 200px;
+    border: 3px solid #1e5631;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(90deg, #145a32, #1e5631);
+}
